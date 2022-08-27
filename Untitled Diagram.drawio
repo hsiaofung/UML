@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T11:05:25.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XuQJRtyZZsZV-qqiCgC4" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-27T11:23:58.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TRNJhC8PNzATWhcwCRuE" version="20.2.7" type="github" pages="4">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,7 +456,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dAovjZm06R4xrPbfi_sy" name="新增服務活動圖">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -645,7 +645,7 @@
             <mxPoint x="230" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fgOm0y0XGLeF95wGsM3C-21" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;服務編號&lt;/span&gt;&lt;/div&gt;&lt;div&gt;服務名稱&lt;/div&gt;&lt;div&gt;軟體名稱&lt;/div&gt;&lt;div&gt;軟體數量&lt;/div&gt;&lt;div&gt;軟體使用期限&lt;/div&gt;&lt;div&gt;硬體名稱&lt;/div&gt;&lt;div&gt;硬體位置&lt;/div&gt;&lt;div&gt;硬體配置狀態&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="fgOm0y0XGLeF95wGsM3C-21" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;服務編號&lt;/span&gt;&lt;/div&gt;&lt;div&gt;服務名稱&lt;/div&gt;&lt;div&gt;軟體名稱&lt;/div&gt;&lt;div&gt;軟體數量&lt;/div&gt;&lt;div&gt;軟體使用期限&lt;/div&gt;&lt;div&gt;硬體名稱&lt;/div&gt;&lt;div&gt;硬體位置&lt;/div&gt;&lt;div&gt;硬體配置狀態&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="30" y="800" width="100" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fgOm0y0XGLeF95wGsM3C-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.02;exitY=0.906;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fgOm0y0XGLeF95wGsM3C-21" target="IFLRIZHIA8Mwzwpm7PjZ-39">
