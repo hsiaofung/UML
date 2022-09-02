@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T02:51:31.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2vyOngaa0K0K48JQsjPg" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-02T02:11:09.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sd88mHOIZ0L2HpLtQ2Oy" version="20.2.7" type="github" pages="7">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
-    <mxGraphModel dx="487" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,7 +349,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jwTZkcmilM069irji1Tf" name="行動邊緣運算系統使用個案圖">
-    <mxGraphModel dx="487" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,7 +456,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dAovjZm06R4xrPbfi_sy" name="新增服務活動圖">
-    <mxGraphModel dx="487" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -658,7 +658,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XZIbG5eNGP7-NEAp4VSA" name="新增服務項目強韌圖">
-    <mxGraphModel dx="487" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -766,92 +766,142 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-1" value="介面物件" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-1" value="介面物件" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-2" value="服務型錄UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-2" value="服務型錄UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="110" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-3" value="+ 服務名稱&#xa;+ 顯示細部說明" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-2">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-3" value="+ 服務名稱&#xa;+ 顯示細部說明" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-2" vertex="1">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-2">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-2" vertex="1">
           <mxGeometry y="70" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-5" value="+ 顯示細部說明()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-2">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-5" value="+ 顯示細部說明()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-2" vertex="1">
           <mxGeometry y="78" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-6" value="細部說明UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-6" value="細部說明UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="110" width="160" height="218" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-7" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體配置狀態&#xa;+ 瀏覽服務型錄&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-6">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-7" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體配置狀態&#xa;+ 瀏覽服務型錄&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-6" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-6">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-6" vertex="1">
           <mxGeometry y="160" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-9" value="+ 瀏覽服務型錄()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-6">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-9" value="+ 瀏覽服務型錄()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-6" vertex="1">
           <mxGeometry y="168" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-10" value="服務池UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-10" value="服務池UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="110" width="160" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-11" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體使用期限&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體配置狀態" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-10">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-11" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體使用期限&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體配置狀態" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-10" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-10">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-10" vertex="1">
           <mxGeometry y="160" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-13" value="+ 瀏覽服務型錄()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-10">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-13" value="+ 瀏覽服務型錄()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-10" vertex="1">
           <mxGeometry y="168" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-14" value="控制物件" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-14" value="控制物件" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="55" y="377" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-15" value="顯示" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-15" value="顯示" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="362" width="160" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-15">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-15" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-18" value="+ 計算軟體使用期限()&#xa;+ 顯示服務型錄()&#xa;+ 顯示細部說明()&#xa;+ 顯示服務池資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-15">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-18" value="+ 計算軟體使用期限()&#xa;+ 顯示服務型錄()&#xa;+ 顯示細部說明()&#xa;+ 顯示服務池資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-15" vertex="1">
           <mxGeometry y="34" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-20" value="啟用" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-20" value="啟用" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="362" width="160" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-20">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-20" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-22" value="+ 啟用軟體項目()&#xa;+ 啟用服務項目()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-20">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-22" value="+ 啟用軟體項目()&#xa;+ 啟用服務項目()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-20" vertex="1">
           <mxGeometry y="34" width="160" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-23" value="實體物件" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-23" value="實體物件" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="529" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-27" value="服務資料" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-27" value="服務資料" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="529" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-28" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體狀態配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-27">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-28" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體狀態配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-27" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-27">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-27" vertex="1">
           <mxGeometry y="160" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-30" value="+ 讀取服務資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-27">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-30" value="+ 讀取服務資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-27" vertex="1">
           <mxGeometry y="168" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-31" value="服務池資料" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-31" value="服務池資料" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="529" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-32" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體狀態配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-31">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-32" value="+ 服務編號&#xa;+ 服務名稱&#xa;+ 軟體名稱&#xa;+ 軟體數量&#xa;+ 軟體授權狀態&#xa;+ 硬體名稱&#xa;+ 硬體位置&#xa;+ 硬體狀態配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-31" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-31">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-31" vertex="1">
           <mxGeometry y="160" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-34" value="+ 讀取服務池資料()&#xa;+ 寫入服務項目()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Yrc7PRJ0MnC5WWUWbOK5-31">
+        <mxCell id="Yrc7PRJ0MnC5WWUWbOK5-34" value="+ 讀取服務池資料()&#xa;+ 寫入服務項目()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Yrc7PRJ0MnC5WWUWbOK5-31" vertex="1">
           <mxGeometry y="168" width="160" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NwWb1JSpe0AKgnY1t5NX" name="客戶登入循序圖">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EsyCqVeF195-oVW52A9L-3" value=":客戶登入UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="377" y="122" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EsyCqVeF195-oVW52A9L-3">
+          <mxGeometry x="50" y="162" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-4" value=":AC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="537" y="122" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EsyCqVeF195-oVW52A9L-4">
+          <mxGeometry x="50" y="202" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-5" value="Boundary Object" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="32" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-6" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="32" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-10" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="287" y="52" width="20" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EsyCqVeF195-oVW52A9L-10">
+          <mxGeometry x="10" y="232" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-12" value="1.: 登入()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="307" y="284" as="sourcePoint" />
+            <mxPoint x="426.5" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-14" value="2.: 登出登入資訊()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="437" y="324" as="sourcePoint" />
+            <mxPoint x="586.5" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-18" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="186" width="329" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EsyCqVeF195-oVW52A9L-19" value="[尚未登入]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="186" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
