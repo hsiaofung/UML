@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T02:11:09.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sd88mHOIZ0L2HpLtQ2Oy" version="20.2.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-09-02T12:02:17.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="r7x-HnpsOc9D_6Dqynvh" version="20.2.7" type="github" pages="8">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -902,6 +902,197 @@
         </mxCell>
         <mxCell id="EsyCqVeF195-oVW52A9L-19" value="[尚未登入]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="334" y="186" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4o7spyFWWOtDf1C9SosE" name="新增服務項目的UI循序圖">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="20" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-1">
+          <mxGeometry x="10" y="99" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-4" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="389" y="140" width="50" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry x="20" y="385" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry x="20" y="488" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry x="-243" y="873" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry x="20" y="870" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-67" value="12.:啟用軟體()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-237" y="874" as="sourcePoint" />
+            <mxPoint x="26.5" y="874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-2" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="50" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry x="25" y="99" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry x="-115" y="488" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-40" value="7.:瀏覽服務型錄()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-105" y="489" as="sourcePoint" />
+            <mxPoint x="153.5" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry x="20" y="547" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry x="-116" y="670" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry x="147" y="667" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-56" value="10.:啟用服務項目()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-2" target="N7sQj7OtVrWMrFqAMzbu-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="671" as="sourcePoint" />
+            <mxPoint x="14.5" y="671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-5" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="50" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-5">
+          <mxGeometry x="20" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-72" value="13.送出啟用軟體項目()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-91" y="892.5" as="sourcePoint" />
+            <mxPoint x="168.5" y="893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-6" value="AC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="100" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry x="50" y="119.5" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-19" value="3.return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6" source="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="159.5" as="sourcePoint" />
+            <mxPoint x="-345" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry x="40" y="508" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-36" value="9.return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.5" y="547.5" as="sourcePoint" />
+            <mxPoint x="-355.5" y="547.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-37" value="8.顯示服務型錄()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-220" y="510" as="sourcePoint" />
+            <mxPoint x="39.5" y="509.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry x="40" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-52" value="15.顯示服務池資料()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.3;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6" target="N7sQj7OtVrWMrFqAMzbu-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.5" y="720.5" as="sourcePoint" />
+            <mxPoint x="-90" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-53" value="11.送出啟用服務項目()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-220" y="680" as="sourcePoint" />
+            <mxPoint x="39.5" y="680.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry x="-110" y="930" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry x="40" y="890" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-70" value="14.return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.3;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N7sQj7OtVrWMrFqAMzbu-6" target="N7sQj7OtVrWMrFqAMzbu-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.5" y="931" as="sourcePoint" />
+            <mxPoint x="-730" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-7" value="服務型錄UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-9" value="細部說明UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-10" value="服務池UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="95" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-12" value="1.:瀏覽服務型錄()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="N7sQj7OtVrWMrFqAMzbu-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="240" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-15" value="2.顯示服務型錄()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="N7sQj7OtVrWMrFqAMzbu-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="295" y="260" as="sourcePoint" />
+            <mxPoint x="419.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="463" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="681" y="483.5" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-23" value="6.return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680.5" y="524" as="sourcePoint" />
+            <mxPoint x="413.5" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-24" value="4.:瀏覽細部說明()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="N7sQj7OtVrWMrFqAMzbu-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="464" as="sourcePoint" />
+            <mxPoint x="270" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-25" value="5.顯示細部說明()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.3;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N7sQj7OtVrWMrFqAMzbu-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="485" as="sourcePoint" />
+            <mxPoint x="680.5" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="463" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-43" value="[選擇顯示細部說明]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-44" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="385" width="610" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-77" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="940" width="606" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N7sQj7OtVrWMrFqAMzbu-78" value="[選擇啟用軟體]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="940" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
