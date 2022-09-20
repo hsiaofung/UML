@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T08:29:43.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iRCeerZa6SmRTSy-VdYC" version="20.3.3" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2022-09-20T08:36:13.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Obg2bHjQIIFDZdLfVRn5" version="20.3.3" type="github" pages="30">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2423,71 +2423,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="SCC/dashboard/RWD活動圖" id="lwoGXf7_s706319KHii_">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="jKPGQiw22sKTEo1IRJxB-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="384" y="70" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jKPGQiw22sKTEo1IRJxB-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="jKPGQiw22sKTEo1IRJxB-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wodTHleE03LNU-OfQA1D-1" value="瀏覽" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="339" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wodTHleE03LNU-OfQA1D-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="wodTHleE03LNU-OfQA1D-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vO8TwxISBU_5ia6zFf5d-1" value="1.1&amp;nbsp;&lt;br&gt;dashboard UI layout &amp;lt;= 1600px" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="140" y="150" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="3Tx3_PjWsykhz6YGnSkA-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="wodTHleE03LNU-OfQA1D-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="205" as="sourcePoint" />
-            <mxPoint x="290" y="155" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-Fn86ehR4O3imXPL_bZI-2" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="360" y="260" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-Fn86ehR4O3imXPL_bZI-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="-Fn86ehR4O3imXPL_bZI-2" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="460" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="610" y="280" />
-              <mxPoint x="610" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-Fn86ehR4O3imXPL_bZI-4" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="-Fn86ehR4O3imXPL_bZI-2" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="400" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="guT2UO8Wi-YzaVywGIVM-1" value="screen width is less than 1366px" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="414" y="230" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="guT2UO8Wi-YzaVywGIVM-2" value="瀏覽" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="340" y="360" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="guT2UO8Wi-YzaVywGIVM-3" value="1.2&amp;nbsp;&lt;br&gt;dashboard UI layout &amp;lt;=1366px" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="141" y="350" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="guT2UO8Wi-YzaVywGIVM-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="241" y="405" as="sourcePoint" />
-            <mxPoint x="340" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="metro network / radio access / use case diagram" id="w7f7odVn9lNWEGhujVSB">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3700,6 +3635,71 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="SCC/dashboard/RWD活動圖" id="lwoGXf7_s706319KHii_">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jKPGQiw22sKTEo1IRJxB-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="384" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jKPGQiw22sKTEo1IRJxB-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="jKPGQiw22sKTEo1IRJxB-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wodTHleE03LNU-OfQA1D-1" value="瀏覽" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="339" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wodTHleE03LNU-OfQA1D-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="wodTHleE03LNU-OfQA1D-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vO8TwxISBU_5ia6zFf5d-1" value="1.1&amp;nbsp;&lt;br&gt;dashboard UI layout &amp;lt;= 1600px" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="140" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3Tx3_PjWsykhz6YGnSkA-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="wodTHleE03LNU-OfQA1D-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="205" as="sourcePoint" />
+            <mxPoint x="290" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Fn86ehR4O3imXPL_bZI-2" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Fn86ehR4O3imXPL_bZI-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="-Fn86ehR4O3imXPL_bZI-2" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="460" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="280" />
+              <mxPoint x="610" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Fn86ehR4O3imXPL_bZI-4" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="-Fn86ehR4O3imXPL_bZI-2" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guT2UO8Wi-YzaVywGIVM-1" value="screen width is less than 1366px" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="414" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="guT2UO8Wi-YzaVywGIVM-2" value="瀏覽" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="340" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="guT2UO8Wi-YzaVywGIVM-3" value="1.2&amp;nbsp;&lt;br&gt;dashboard UI layout &amp;lt;=1366px" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="141" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="guT2UO8Wi-YzaVywGIVM-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="405" as="sourcePoint" />
+            <mxPoint x="340" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="SCC/dashboard RWD 循序圖" id="tQPI5tmeInFQnI0tXb6U">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3748,6 +3748,20 @@
             <mxPoint x="470" y="299" as="targetPoint" />
             <mxPoint x="615" y="299" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e7ffYeyWKgTJFWBpd6W4" name="SCC/dashboard rwd/類別圖">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lEufh51akRlPv71QvXh0-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Dashboard UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ widthIsGreater1366: Boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lEufh51akRlPv71QvXh0-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BreakpointObserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ state: {matches}&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ observe(string): Observable&amp;lt;BreakpointState&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
