@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T07:37:49.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2jkFX9qfnaTOEgq5oURN" version="20.3.6" type="github" pages="32">
+<mxfile host="app.diagrams.net" modified="2022-09-23T08:07:32.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5-wZ56Ef0JJHs_63EOQQ" version="20.3.6" type="github" pages="32">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4006,7 +4006,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-13" value="1.2&amp;nbsp;&lt;br&gt;Filter box UI&lt;br&gt;filterCriteria" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-13" value="1.2&amp;nbsp;&lt;br&gt;Filter box UI&lt;br&gt;default is IP address" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="71" y="340" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.991;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-13">
@@ -4018,17 +4018,17 @@
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-15" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="243" y="485" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-16" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-15">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-16" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-15">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="377" y="505" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-17" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-15" target="vZZ4nBAaxptfqiIl2beQ-28">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-15">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="283" y="585" as="targetPoint" />
+            <mxPoint x="283" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-19" value="1.3 &lt;br&gt;IP address input box UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-19" value="1.3 &lt;br&gt;Filter box UI without ip address input box" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="564" y="455" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vZZ4nBAaxptfqiIl2beQ-19">
@@ -4040,7 +4040,7 @@
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="268" y="1019" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-22" value="open a ip address input box" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-22" value="display filter box" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="374" y="485" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-28" value="show devices in pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -4072,38 +4072,43 @@
           <mxGeometry x="304" y="450" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-36" value="enter ip address" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="374" y="584" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="433.5" y="585" as="targetPoint" />
-            <mxPoint x="433.5" y="525" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-39" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="394" y="682" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-40" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="vZZ4nBAaxptfqiIl2beQ-39" parent="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="340" y="850" as="targetPoint" />
+            <mxPoint x="433.5" y="525" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="520" y="702" />
-              <mxPoint x="520" y="850" />
+              <mxPoint x="440" y="525" />
+              <mxPoint x="440" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-41" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="vZZ4nBAaxptfqiIl2beQ-39" parent="1" target="vZZ4nBAaxptfqiIl2beQ-28">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-39" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="243" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-40" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="vZZ4nBAaxptfqiIl2beQ-39" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="434" y="782" as="targetPoint" />
+            <mxPoint x="340" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="720" />
+              <mxPoint x="390" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-41" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="vZZ4nBAaxptfqiIl2beQ-39" parent="1" target="vZZ4nBAaxptfqiIl2beQ-28">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="283" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vZZ4nBAaxptfqiIl2beQ-42" value="Does user clear content of ip address input box?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="444" y="652" width="280" height="30" as="geometry" />
+          <mxGeometry x="294" y="670" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vZZ4nBAaxptfqiIl2beQ-43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+        <mxCell id="vZZ4nBAaxptfqiIl2beQ-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vZZ4nBAaxptfqiIl2beQ-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="433.5" y="684" as="targetPoint" />
-            <mxPoint x="433.5" y="624" as="sourcePoint" />
+            <mxPoint x="283" y="690" as="targetPoint" />
+            <mxPoint x="282.5" y="640" as="sourcePoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
