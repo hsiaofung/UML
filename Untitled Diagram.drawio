@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T07:38:51.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xyELoQyTRDzxYFg51yn5" version="20.3.6" type="github" pages="34">
+<mxfile host="app.diagrams.net" modified="2022-09-27T07:44:35.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sKucTkwluqgIQZ249dnO" version="20.3.6" type="github" pages="34">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4230,7 +4230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kmN0qq4EwkgruQZu2lp1-6" value="1.1&amp;nbsp;&lt;br&gt;discovery pool UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="178" y="160" width="100" height="100" as="geometry" />
+          <mxGeometry x="170" y="150" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kmN0qq4EwkgruQZu2lp1-7" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="361" y="260" width="80" height="40" as="geometry" />
