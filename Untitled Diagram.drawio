@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T06:26:49.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="N-Zk6zjKt7nN8cGbe-X2" version="20.3.6" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2022-09-29T06:38:02.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6Jykjh87spDR1AzhWp69" version="20.3.6" type="github" pages="35">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4373,7 +4373,7 @@
         <mxCell id="HNIynPs-3Lkvjd8F8L7N-18" value="fails to send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="555" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HNIynPs-3Lkvjd8F8L7N-19" value="1.5 Error Message UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="HNIynPs-3Lkvjd8F8L7N-19" value="1.6 Error Message UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="680" y="559" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HNIynPs-3Lkvjd8F8L7N-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HNIynPs-3Lkvjd8F8L7N-19">
@@ -4405,7 +4405,7 @@
             <mxPoint x="399" y="789" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HNIynPs-3Lkvjd8F8L7N-26" value="1.4 Success Message UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="HNIynPs-3Lkvjd8F8L7N-26" value="1.5 Success Message UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="664" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HNIynPs-3Lkvjd8F8L7N-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.01;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNIynPs-3Lkvjd8F8L7N-26" target="HNIynPs-3Lkvjd8F8L7N-24">
@@ -4446,6 +4446,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="269.28" y="394.26" as="sourcePoint" />
             <mxPoint x="359" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhNvOc-xkriu17nEMqMP-6" value="1.4 &lt;br&gt;License Key input UI" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="535" y="410" width="75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uhNvOc-xkriu17nEMqMP-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.991;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uhNvOc-xkriu17nEMqMP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="510" as="sourcePoint" />
+            <mxPoint x="548.72" y="435.74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
