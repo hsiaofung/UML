@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T06:38:02.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6Jykjh87spDR1AzhWp69" version="20.3.6" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2022-09-29T06:39:12.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PK0VP3b7zWF1NiosdcGg" version="20.3.6" type="github" pages="35">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4282,7 +4282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3EbCjdn06uDNk2Z96fm0" name="SCC/scalability/podView/discoveryPool/manuallyModifyLicense">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4370,8 +4370,8 @@
             <mxPoint x="399" y="689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HNIynPs-3Lkvjd8F8L7N-18" value="fails to send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="555" width="90" height="30" as="geometry" />
+        <mxCell id="HNIynPs-3Lkvjd8F8L7N-18" value="fails to activate?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="555" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HNIynPs-3Lkvjd8F8L7N-19" value="1.6 Error Message UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="680" y="559" width="80" height="100" as="geometry" />
