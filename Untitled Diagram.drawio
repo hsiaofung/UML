@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T08:28:40.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QuSEZOm6NAGJZ4PpsP1s" version="20.3.6" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2022-09-30T08:32:10.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZB2kDkF7H2-oLxysyn6A" version="20.3.6" type="github" pages="37">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4682,7 +4682,7 @@
         <mxCell id="8_5iBsay_i4WJnuytFDQ-12" value="1.2&lt;br&gt;Edit mode UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="188" y="360" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8_5iBsay_i4WJnuytFDQ-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.991;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8_5iBsay_i4WJnuytFDQ-12">
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=90;exitDy=65;exitPerimeter=0;" edge="1" parent="1" source="8_5iBsay_i4WJnuytFDQ-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="291" y="456" as="sourcePoint" />
             <mxPoint x="341" y="406" as="targetPoint" />
@@ -4693,6 +4693,46 @@
             <mxPoint x="398.5" y="480" as="targetPoint" />
             <mxPoint x="398.5" y="420" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-34" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-35" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="8_5iBsay_i4WJnuytFDQ-34" parent="1" target="8_5iBsay_i4WJnuytFDQ-11">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="540" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="500" />
+              <mxPoint x="570" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-36" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="8_5iBsay_i4WJnuytFDQ-34" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-37" value="export rack-config file?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-38" value="system download file" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="341" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="8_5iBsay_i4WJnuytFDQ-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-41" value="1.3 &lt;br&gt;Download UI" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=90;exitDy=65;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="619.5" as="sourcePoint" />
+            <mxPoint x="343" y="600.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_5iBsay_i4WJnuytFDQ-43" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="386" y="680" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
