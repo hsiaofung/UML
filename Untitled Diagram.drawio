@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T02:28:39.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Is7sk4m4rOQWoQLzkuyN" version="20.3.7" type="github" pages="38">
+<mxfile host="app.diagrams.net" modified="2022-10-04T02:29:30.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nNlZ9DqE5eX02ZhASNGH" version="20.3.7" type="github" pages="38">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4759,7 +4759,7 @@
             <mxPoint x="340" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9g4drzftjHjlVeoUyGMS-3" value="browse unused device" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="9g4drzftjHjlVeoUyGMS-3" value="browse managed device" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9g4drzftjHjlVeoUyGMS-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="9g4drzftjHjlVeoUyGMS-3">
@@ -4773,7 +4773,7 @@
             <mxPoint x="280" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9g4drzftjHjlVeoUyGMS-6" value="1.1&amp;nbsp;&lt;br&gt;discovery pool UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="9g4drzftjHjlVeoUyGMS-6" value="1.1&amp;nbsp;&lt;br&gt;Tree view UI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="117" y="160" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9g4drzftjHjlVeoUyGMS-7" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -4798,8 +4798,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9g4drzftjHjlVeoUyGMS-10" value="open a filter box?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="361" y="230" width="120" height="30" as="geometry" />
+        <mxCell id="9g4drzftjHjlVeoUyGMS-10" value="open a tree view box?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="230" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9g4drzftjHjlVeoUyGMS-11" value="display filter box" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="280" y="380" width="120" height="40" as="geometry" />
