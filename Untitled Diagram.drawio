@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T08:51:12.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mppL4mO3Jym9E4_l-Cdc" version="20.4.0" type="github" pages="39">
+<mxfile host="app.diagrams.net" modified="2022-11-02T09:07:56.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qr4V41hFar0ZMpRz-we-" version="20.4.0" type="github" pages="39">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4922,7 +4922,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y8-ZaZH7cTvDVyh-ImIq" name="scc/factory">
-    <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4990,7 +4990,7 @@
         <mxCell id="1NHZmflmxLj01onzeLXn-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1NHZmflmxLj01onzeLXn-24">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="1NHZmflmxLj01onzeLXn-27" value="+ transform(obj: object, property: string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NHZmflmxLj01onzeLXn-24">
+        <mxCell id="1NHZmflmxLj01onzeLXn-27" value="+ transform(obj: object, property: string)&#xa;+ get newKey()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NHZmflmxLj01onzeLXn-24">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1NHZmflmxLj01onzeLXn-28" value="DnsProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -5102,10 +5102,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1NHZmflmxLj01onzeLXn-50" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.546;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.388;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1NHZmflmxLj01onzeLXn-9" target="1NHZmflmxLj01onzeLXn-1">
+        <mxCell id="1NHZmflmxLj01onzeLXn-51" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;elbow=vertical;entryX=1.002;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="1NHZmflmxLj01onzeLXn-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="230" y="340" as="sourcePoint" />
-            <mxPoint x="398.6399999999999" y="319.168" as="targetPoint" />
+            <mxPoint x="710" y="260" as="sourcePoint" />
+            <mxPoint x="710" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NHZmflmxLj01onzeLXn-52" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;exitX=0.342;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="1NHZmflmxLj01onzeLXn-9" target="1NHZmflmxLj01onzeLXn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="204" y="377" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
