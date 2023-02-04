@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-04T06:53:08.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="L8nbr4zRt0P__1Y_147L" version="20.8.15" type="github" pages="44">
+<mxfile host="app.diagrams.net" modified="2023-02-04T06:57:12.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zsCsjswcxgUGy8bKhANg" version="20.8.15" type="github" pages="44">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5676,18 +5676,24 @@
     </mxGraphModel>
   </diagram>
   <diagram name="compute/overview/memory/seq-diagram with code review / UI 的副本" id="yfl9K3Los1sE5B0WZZxU">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-0" />
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-1" parent="Bpq1_BVflBDzj9xvPZ5Q-0" />
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="Bpq1_BVflBDzj9xvPZ5Q-1">
-          <mxGeometry x="143" y="193" width="20" height="300" as="geometry" />
+          <mxGeometry x="143" y="193" width="20" height="667" as="geometry" />
+        </mxCell>
+        <mxCell id="iMBqVd1-a7zAzTVmOpEL-0" value="select CPU" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="Bpq1_BVflBDzj9xvPZ5Q-2">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="12" y="347" as="sourcePoint" />
+            <mxPoint x="247" y="347" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-3" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="Bpq1_BVflBDzj9xvPZ5Q-1">
-          <mxGeometry x="249" y="192" width="50" height="430" as="geometry" />
+          <mxGeometry x="249" y="192" width="50" height="638" as="geometry" />
         </mxCell>
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Bpq1_BVflBDzj9xvPZ5Q-3">
-          <mxGeometry x="20" y="120" width="11.07" height="310" as="geometry" />
+          <mxGeometry x="20" y="120" width="11.07" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Bpq1_BVflBDzj9xvPZ5Q-5" value="Compute UI&#xa;(Container)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Bpq1_BVflBDzj9xvPZ5Q-1">
           <mxGeometry x="234" y="152" width="80" height="26" as="geometry" />
