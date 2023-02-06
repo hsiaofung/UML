@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T08:18:10.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EssV_lQ4qQbQvdwcD9ea" version="20.8.16" type="github" pages="45">
+<mxfile host="app.diagrams.net" modified="2023-02-06T08:24:41.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F-QJw4MyK3YVa1GGDwdO" version="20.8.16" type="github" pages="45">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5815,7 +5815,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="compute/overview/local storage/seq-diagram with code review / UI " id="vbVpt-fSlPVKPc2sRj3-">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="l0n4EqudaLYSZnhS6jAV-0" />
         <mxCell id="l0n4EqudaLYSZnhS6jAV-1" parent="l0n4EqudaLYSZnhS6jAV-0" />
@@ -5838,7 +5838,7 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-6" value="Compute UI&#xa;(Container)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry x="234" y="152" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-7" value="browse memory" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-5">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-7" value="browse local storage" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="153" y="312" as="sourcePoint" />
           </mxGeometry>
@@ -5861,13 +5861,13 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-13" value="Compute-&#xa;navigation-tree UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry x="759" y="153" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-14" value="browse memory" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-8">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-14" value="browse local storage" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="283" y="353" as="sourcePoint" />
             <mxPoint x="363" y="353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-15" value="browse memory" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-12">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-15" value="browse local storage" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="809" y="393" as="sourcePoint" />
           </mxGeometry>
@@ -5878,7 +5878,7 @@
             <mxPoint x="1034" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-17" value="route to memory page (path: xxx/option.data.uuid)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.226;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-17" value="route to local storage page (path: xxx/option.data.uuid)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.226;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1163.2600000000007" y="547.3200000000002" as="sourcePoint" />
             <mxPoint x="398.07142857142844" y="547.3200000000002" as="targetPoint" />
@@ -5902,12 +5902,12 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-23" value="Compute-overview-&#xa;table-card-wrapper&#xa; UI&#xa;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry x="483" y="158" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-24" value="display memory list table" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-22">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-24" value="display local storage list table" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="600" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-25" value="read mrmoty list ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0.43;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-32">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-25" value="read local storage list ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0.43;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="518" y="638" as="sourcePoint" />
             <mxPoint x="1282" y="638" as="targetPoint" />
@@ -5922,18 +5922,18 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-28" value="Compute-overview-&#xa;image-card-wrapper&#xa; UI&#xa;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry x="620" y="158" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-29" value="display memory image card" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-27">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-29" value="display local storage image card" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="880" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-30" value="read memory image()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.39;entryY=0.777;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-30" value="read local storage image()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.39;entryY=0.777;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660.3235294117649" y="920.1570000000002" as="sourcePoint" />
             <mxPoint x="1156" y="920.1570000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-31" value="return memory image data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-31" value="return local storage image data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="1080" as="targetPoint" />
             <mxPoint x="1156" y="1080" as="sourcePoint" />
@@ -5945,7 +5945,7 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-32">
           <mxGeometry x="45" y="243" width="10" height="697" as="geometry" />
         </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-34" value="return memory list data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-21">
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-34" value="return local storage list data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="760" as="sourcePoint" />
             <mxPoint x="1080" y="760" as="targetPoint" />
