@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T09:14:42.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rD28RNhw_4XYOwhm8pOl" version="20.8.16" type="github" pages="45">
+<mxfile host="app.diagrams.net" modified="2023-02-06T09:20:32.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="U0BLJzPL-pQHlcxffrvY" version="20.8.16" type="github" pages="45">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5815,7 +5815,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="compute/overview/local storage/seq-diagram with code review / UI " id="vbVpt-fSlPVKPc2sRj3-">
-    <mxGraphModel dx="1687" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="l0n4EqudaLYSZnhS6jAV-0" />
         <mxCell id="l0n4EqudaLYSZnhS6jAV-1" parent="l0n4EqudaLYSZnhS6jAV-0" />
@@ -5889,12 +5889,6 @@
         <mxCell id="l0n4EqudaLYSZnhS6jAV-24" value="display local storage &lt;br&gt;list table" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="JnMKN7OBvKSOsjOUqY94-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="600" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l0n4EqudaLYSZnhS6jAV-25" value="read local storage list ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=-0.1;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="l0n4EqudaLYSZnhS6jAV-33" source="JnMKN7OBvKSOsjOUqY94-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="700" as="sourcePoint" />
-            <mxPoint x="2024" y="698.951" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l0n4EqudaLYSZnhS6jAV-26" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
@@ -5972,6 +5966,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="649.5" y="680" as="sourcePoint" />
             <mxPoint x="765" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0n4EqudaLYSZnhS6jAV-25" value="read local storage list ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=-0.1;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.4;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="639.04" as="sourcePoint" />
+            <mxPoint x="1380" y="639.0419999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
