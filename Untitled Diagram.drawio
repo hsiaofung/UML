@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T03:33:50.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Cq-Q8UfgDOUgyM_cUP7M" version="20.8.16" type="github" pages="45">
+<mxfile host="app.diagrams.net" modified="2023-02-07T04:30:22.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AvbNC00rbN5o6ZDZQvqB" version="20.8.16" type="github" pages="45">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5957,6 +5957,15 @@
         <mxCell id="HxylJHwnCuTGRPpY6pB--0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-32">
           <mxGeometry x="45" y="1107" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HxylJHwnCuTGRPpY6pB--4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-32">
+          <mxGeometry x="45" y="931" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HxylJHwnCuTGRPpY6pB--8" value="return tab index" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-32" target="JnMKN7OBvKSOsjOUqY94-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="1001" as="sourcePoint" />
+            <mxPoint x="-35" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="l0n4EqudaLYSZnhS6jAV-34" value="return local storage list data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="l0n4EqudaLYSZnhS6jAV-1" target="JnMKN7OBvKSOsjOUqY94-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1380" y="760" as="sourcePoint" />
@@ -5970,7 +5979,7 @@
           <mxGeometry x="20" y="397" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HxylJHwnCuTGRPpY6pB--2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JnMKN7OBvKSOsjOUqY94-0">
-          <mxGeometry x="20" y="887" width="10" height="80" as="geometry" />
+          <mxGeometry x="20" y="887" width="10" height="163" as="geometry" />
         </mxCell>
         <mxCell id="JnMKN7OBvKSOsjOUqY94-1" value="tabbed-datatable-&#xa;wrapper&#xa; UI&#xa;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry x="478" y="159" width="80" height="26" as="geometry" />
@@ -6050,6 +6059,11 @@
         <mxCell id="HxylJHwnCuTGRPpY6pB--3" value="select logical tab" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="HxylJHwnCuTGRPpY6pB--2" parent="l0n4EqudaLYSZnhS6jAV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="155" y="1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HxylJHwnCuTGRPpY6pB--5" value="select logic tab" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="HxylJHwnCuTGRPpY6pB--4" parent="l0n4EqudaLYSZnhS6jAV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="1120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
