@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T06:54:25.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IFAyC1hl9oRFtkVJGhkP" version="20.8.16" type="github" pages="47">
+<mxfile host="app.diagrams.net" modified="2023-02-08T06:57:55.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LceRwSt3tM86YuxkzdXp" version="20.8.16" type="github" pages="47">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5759,7 +5759,7 @@
           <mxGeometry x="20" y="330" width="12.04" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J3p6oUtd-HHk0JkcN7Li-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-17">
-          <mxGeometry x="22.039999999999964" y="628" width="10" height="80" as="geometry" />
+          <mxGeometry x="22.04" y="628" width="10" height="112" as="geometry" />
         </mxCell>
         <mxCell id="X0YXqUzmQcoicx4WrNq8-19" value="Compute-overview-&#xa;FRU&#xa; UI&#xa;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
           <mxGeometry x="352" y="159" width="80" height="26" as="geometry" />
@@ -5771,7 +5771,13 @@
           <mxGeometry x="45" y="243" width="10" height="257" as="geometry" />
         </mxCell>
         <mxCell id="J3p6oUtd-HHk0JkcN7Li-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-31">
-          <mxGeometry x="45" y="672" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="672" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="J3p6oUtd-HHk0JkcN7Li-8" value="return Success or failed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="43" y="729.17" as="sourcePoint" />
+            <mxPoint x="-335.3333333333335" y="729.1700000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X0YXqUzmQcoicx4WrNq8-37" value="7:return FRU information data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" source="X0YXqUzmQcoicx4WrNq8-31">
           <mxGeometry relative="1" as="geometry">
@@ -5801,6 +5807,12 @@
         </mxCell>
         <mxCell id="J3p6oUtd-HHk0JkcN7Li-7" value="[browse FRU]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
           <mxGeometry x="190" y="260" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="J3p6oUtd-HHk0JkcN7Li-9" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
+          <mxGeometry x="117" y="760" width="713" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="J3p6oUtd-HHk0JkcN7Li-10" value="[edit FRU]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
+          <mxGeometry x="180" y="770" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
