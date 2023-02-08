@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T06:49:26.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lwn4zFYZV_b9FJHv9o9V" version="20.8.16" type="github" pages="47">
+<mxfile host="app.diagrams.net" modified="2023-02-08T06:50:38.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="G1spQ0yi9efi0wEKkRYD" version="20.8.16" type="github" pages="47">
   <diagram id="IYbLyZFpPOKo4ASsVLhy" name="metro network / radio access / use case diagram">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5706,7 +5706,7 @@
         <mxCell id="X0YXqUzmQcoicx4WrNq8-5" value="Compute UI&#xa;(Container)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
           <mxGeometry x="234" y="152" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-6" value="browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-4">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-6" value="1:browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="153" y="312" as="sourcePoint" />
           </mxGeometry>
@@ -5729,24 +5729,24 @@
         <mxCell id="X0YXqUzmQcoicx4WrNq8-12" value="Compute-&#xa;navigation-tree UI" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-1">
           <mxGeometry x="482" y="153" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-13" value="browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-7">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-13" value="2:browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="283" y="353" as="sourcePoint" />
             <mxPoint x="363" y="353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-14" value="browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-11">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-14" value="3:browse FRU" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="532" y="393" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-15" value="nodeAction(option)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-32">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-15" value="4:nodeAction(option)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="652" y="433" as="sourcePoint" />
             <mxPoint x="757" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-16" value="route to FRU page (path: xxx/option.data.uuid)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.3;exitY=0.447;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" source="X0YXqUzmQcoicx4WrNq8-32">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-16" value="5:route to FRU page (path: xxx/option.data.uuid)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.3;exitY=0.447;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" source="X0YXqUzmQcoicx4WrNq8-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1163.2600000000007" y="547.3200000000002" as="sourcePoint" />
             <mxPoint x="398.07142857142844" y="547.3200000000002" as="targetPoint" />
@@ -5773,13 +5773,13 @@
         <mxCell id="J3p6oUtd-HHk0JkcN7Li-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X0YXqUzmQcoicx4WrNq8-31">
           <mxGeometry x="45" y="571" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-37" value="return FRU information data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" source="X0YXqUzmQcoicx4WrNq8-31">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-37" value="7:return FRU information data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" source="X0YXqUzmQcoicx4WrNq8-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="646" as="sourcePoint" />
             <mxPoint x="391.3235294117644" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X0YXqUzmQcoicx4WrNq8-24" value="read FRU information ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-31">
+        <mxCell id="X0YXqUzmQcoicx4WrNq8-24" value="6:read FRU information ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="X0YXqUzmQcoicx4WrNq8-1" target="X0YXqUzmQcoicx4WrNq8-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="601" as="sourcePoint" />
             <mxPoint x="1156.6699999999996" y="601.28" as="targetPoint" />
